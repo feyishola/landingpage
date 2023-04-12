@@ -1,0 +1,1382 @@
+<html lang="en" class="dark"><head>
+    <meta charset="utf-8">
+    <title>Audifric</title>
+    <link rel="shortcut icon" href="./images/Audifrik.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="./css/vendors/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/vendors/swiper-bundle.min.css">
+    <link href="./style.css" rel="stylesheet">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+    if (localStorage.getItem('dark-mode') == 'true' || !('dark-mode' in localStorage)) {
+        document.querySelector('html').classList.add('dark');
+    } else {
+        document.querySelector('html').classList.remove('dark');
+    }        
+    </script>
+</head>
+
+<body class="cd hk aw hs vu me hr" data-aos-easing="ease-out-quart" data-aos-duration="750" data-aos-delay="0">
+
+    <!-- Page wrapper -->
+    <div class="ip ur su ae">
+
+        <!-- Site header -->
+        <header class="tr sa tg">
+            <div class="sk ns ls gp">
+                <div class="ip uo ul ig">
+
+                    <!-- Site branding -->
+                    <div class="oo np mtt" style="display: flex; justify-content: center;align-items: center;gap: 10px;">
+                        <!-- Logo -->
+                        <a class="block" href="index.html" aria-label="Cruip">
+                            <!-- <svg class="sf iy" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_a">
+                                        <stop stop-color="#3ABAB4" offset="0%"></stop>
+                                        <stop stop-color="#7F9CF5" offset="100%"></stop>
+                                    </linearGradient>
+                                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="logo_b">
+                                        <stop stop-color="#3ABAB4" offset="0%"></stop>
+                                        <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#logo_a)"></path>
+                                <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#logo_b)"></path>
+                            </svg> -->
+
+                                <img src="./images/Audifrik.png" alt="logo" width="40px" height="40px"/>
+                        </a>
+                        <!-- <p style="font-size: 36px;font-family: fantasy; font-weight: bold;">audifric</p> -->
+                    </div>
+
+                    <!-- Desktop navigation -->
+                    <nav class="im yf yx">
+
+                        <!-- Desktop menu links -->
+                        <ul class="ip ou ui uo c_">
+                            <li>
+                                <a class="text-gray-600 de dark--text-gray-300 mv lo lu ip uo ph pv pw" href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-600 de dark--text-gray-300 mv lo lu ip uo ph pv pw" href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a class="text-gray-600 de dark--text-gray-300 mv lo lu ip uo ph pv pw" href="testimonials.html">Testimonials</a>
+                            </li>
+                            <!-- 1st level: hover -->
+                            <li class="ti" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
+                                <a class="text-gray-600 de dark--text-gray-300 mv lo lu ip uo ph pv pw" href="#0" aria-haspopup="true" :aria-expanded="open" @focus="open = true" @focusout="open = false" @click.prevent="" aria-expanded="false">
+                                    Resources
+                                    <svg class="sl ib fq ho o_ nd oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z"></path>
+                                    </svg>
+                                </a>
+                                <!-- 2nd level: hover -->
+                                <ul class="oa tr tu ta sc aw va ps lu nv ai" x-show="open" x-transition:enter="ph px pm ow" x-transition:enter-start="h_ of" x-transition:enter-end="opacity--100 ol" x-transition:leave="ph px pm" x-transition:leave-start="opacity--100" x-transition:leave-end="h_" style="display: none;">
+                                    <li>
+                                        <a class="cm text-gray-600 dark--text-gray-400 dt mm ip lu ls hn" href="help.html" @focus="open = true" @focusout="open = false">Help center</a>
+                                    </li>
+                                    <li>
+                                        <a class="cm text-gray-600 dark--text-gray-400 dt mm ip lu ls hn" href="404.html" @focus="open = true" @focusout="open = false">404</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- Desktop lights switch -->
+                        <div class="form-switch ip ur uf nm">
+                            <input type="checkbox" name="light-switch" id="light-switch-desktop" class="light-switch q">
+                            <label class="ti" for="light-switch-desktop">
+                                <span class="ti fi ff fb vv vw po ty" aria-hidden="true"></span>
+                                <svg class="tr to" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
+                                    <g class="fq text-white" fill-rule="nonzero" opacity=".88">
+                                        <path d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z"></path>
+                                        <circle cx="32" cy="12" r="3"></circle>
+                                        <circle fill-opacity=".4" cx="12" cy="12" r="6"></circle>
+                                        <circle fill-opacity=".88" cx="12" cy="12" r="3"></circle>
+                                    </g>
+                                </svg>
+                                <span class="q">Switch to light / dark version</span>
+                            </label>
+                        </div>
+
+                        <!-- Desktop CTA on the right -->
+                        <ul class="ip ua ui uo">
+                            <li>
+                                <a class="r text-white bg-teal-500 p_ ng" href="contact.html">Request code</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                    
+                    <!-- Mobile menu -->
+                    <div class="id yc" x-data="{ expanded: false }">
+
+                        <!-- Mobile lights switch -->
+                        <div class="form-switch ip ur uf ny nb">
+                            <input type="checkbox" name="light-switch" id="light-switch-mobile" class="light-switch q">
+                            <label class="ti" for="light-switch-mobile">
+                                <span class="ti fi ff fb vv vw po ty" aria-hidden="true"></span>
+                                <svg class="tr to" width="44" height="24" viewBox="0 0 44 24" xmlns="http://www.w3.org/2000/svg">
+                                    <g class="fq text-white" fill-rule="nonzero" opacity=".88">
+                                        <path d="M32 8a.5.5 0 00.5-.5v-1a.5.5 0 10-1 0v1a.5.5 0 00.5.5zM35.182 9.318a.5.5 0 00.354-.147l.707-.707a.5.5 0 00-.707-.707l-.707.707a.5.5 0 00.353.854zM37.5 11.5h-1a.5.5 0 100 1h1a.5.5 0 100-1zM35.536 14.829a.5.5 0 00-.707.707l.707.707a.5.5 0 00.707-.707l-.707-.707zM32 16a.5.5 0 00-.5.5v1a.5.5 0 101 0v-1a.5.5 0 00-.5-.5zM28.464 14.829l-.707.707a.5.5 0 00.707.707l.707-.707a.5.5 0 00-.707-.707zM28 12a.5.5 0 00-.5-.5h-1a.5.5 0 100 1h1a.5.5 0 00.5-.5zM28.464 9.171a.5.5 0 00.707-.707l-.707-.707a.5.5 0 00-.707.707l.707.707z"></path>
+                                        <circle cx="32" cy="12" r="3"></circle>
+                                        <circle fill-opacity=".4" cx="12" cy="12" r="6"></circle>
+                                        <circle fill-opacity=".88" cx="12" cy="12" r="3"></circle>
+                                    </g>
+                                </svg>
+                                <span class="q">Switch to light / dark version</span>
+                            </label>
+                        </div>
+
+                        <!-- Hamburger button -->
+                        <button class="c" :class="{ 'active': expanded }" @click.stop="expanded = !expanded" aria-controls="mobile-nav" :aria-expanded="expanded" aria-expanded="false">
+                            <span class="q">Menu</span>
+                            <svg class="sh iw fq hs de dark--text-gray-300 mv ph pv pw" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="4" width="24" height="2" rx="1"></rect>
+                                <rect y="11" width="24" height="2" rx="1"></rect>
+                                <rect y="18" width="24" height="2" rx="1"></rect>
+                            </svg>
+                        </button>
+
+                        <!-- Mobile navigation -->
+                        <nav id="mobile-nav" class="tn tf ix tb ta sa s_ nx at aw vu ps l" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-show="expanded" x-transition:enter="ph px pm ow" x-transition:enter-start="h_ oc" x-transition:enter-end="opacity--100 oh" x-transition:leave="ph px pm" x-transition:leave-start="opacity--100" x-transition:leave-end="h_" style="display: none;">
+                            <div class="la l_ lj">
+                                <!-- Logo -->
+                                <a class="ic nk" href="index.html" aria-label="Cruip">
+                                    <!-- <svg class="sf iy" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                        <defs>
+                                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="menulogo_a">
+                                                <stop stop-color="#3ABAB4" offset="0%"></stop>
+                                                <stop stop-color="#7F9CF5" offset="100%"></stop>
+                                            </linearGradient>
+                                            <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="menulogo_b">
+                                                <stop stop-color="#3ABAB4" offset="0%"></stop>
+                                                <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#menulogo_a)"></path>
+                                        <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#menulogo_b)"></path>
+                                    </svg> -->
+                                    <img src="./images/Audifrik.png" alt="logo" width="40px" height="40px"/>
+                                </a>
+                                <!-- Links -->
+                                <ul>
+                                    <li>
+                                        <a class="ip text-gray-600 de dark--text-gray-300 mv lu" href="about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a class="ip text-gray-600 de dark--text-gray-300 mv lu" href="blog.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a class="ip text-gray-600 de dark--text-gray-300 mv lu" href="testimonials.html">Testimonials</a>
+                                    </li>
+                                    <li class="lu no al ac av vr">
+                                        <span class="ip text-gray-600 dark--text-gray-400 lu">Resources</span>
+                                        <ul class="lq">
+                                            <li>
+                                                <a class="cm ip c_ text-gray-600 de dark--text-gray-400 mv lu" href="help.html">Help center</a>
+                                            </li>
+                                            <li>
+                                                <a class="cm ip c_ text-gray-600 de dark--text-gray-400 mv lu" href="404.html">404</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="c_ sa id uo uf au am ls lu no ai text-white bg-teal-500 p_ ph pv pw" href="contact.html">Request code</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Page content -->
+        <main class="ou">
+
+            <!-- Page illustration -->
+            <!-- <div class="ti sk ns ik z tw" aria-hidden="true">
+                <svg class="tr tf tl ow op n_ ma" width="800" height="502" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="400" cy="102" r="400" fill="url(#heroglow_paint0_radial)" fill-opacity=".6"></circle>
+                    <circle cx="209" cy="289" r="170" fill="url(#heroglow_paint1_radial)" fill-opacity=".4"></circle>
+                    <defs>
+                        <radialGradient id="heroglow_paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 149 251) scale(315.089)">
+                            <stop stop-color="#3ABAB4"></stop>
+                            <stop offset="1" stop-color="#3ABAB4" stop-opacity=".01"></stop>
+                        </radialGradient>
+                        <radialGradient id="heroglow_paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 -40 249) scale(133.913)">
+                            <stop stop-color="#667EEA"></stop>
+                            <stop offset="1" stop-color="#667EEA" stop-opacity=".01"></stop>
+                        </radialGradient>
+                    </defs>
+                </svg>
+            </div> -->
+            
+            <!-- Hero -->
+            <section>
+                <div class="sk ns ls gp">
+                    <div class="lz cf bh bv">
+
+                        <!-- Hero content -->
+                        <div class="yl yj bi xn uo">
+                            
+                            <!-- Content -->
+                            <div class="gj bj nj yr ch bm">
+                                <!-- <h1 class="h1 xl nk cv cq aos-init aos-animate" data-aos="fade-down">Your website, reimagined</h1> -->
+                                <div class="leading-relaxed space-y-1">
+
+                                    <p class="h3 md nk cv cq aos-init aos-animate  text-purple-500 mt-0" data-aos="fade-down" style="margin-bottom: 3px;">Live Stream Your Podcast</p>
+                                    <p class="h3 md nk cv cq aos-init aos-animate text-req-500 mt-0" style="margin-bottom: 3px;">To increase</p>
+                                    <p class="h3 md nk cv cq aos-init aos-animate text-teal-500 mt-0">Engagement</p>
+                                </div>
+                                <p class="cg text-gray-600 dark--text-gray-400 aos-init aos-animate" data-aos="fade-down" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+                                <!-- CTA form -->
+                                <form class="rl aos-init aos-animate" data-aos="fade-down" data-aos-delay="300">
+                                    <div class="ip ur ga uf s_ ns go ye">
+                                        <input type="tel" class="s sa rn mk m_" placeholder="Phone number" aria-label="Phone number">
+                                        <a class="n text-white bg-teal-500 p_ oo" href="#0">Request code</a>
+                                    </div>
+                                    <!-- Success message -->
+                                    <!-- <p class="text-center md:text-left mt-2 opacity-75 text-sm">Thanks for subscribing!</p> -->
+                                </form>
+                                <ul class="s_ go ns yg text-gray-600 dark--text-gray-400 rl rk aos-init aos-animate" data-aos="fade-down" data-aos-delay="450">
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-400 rx oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Lorem ipsum is placeholder text commonly.</span>
+                                    </li>
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-400 rx oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Excepteur sint occaecat cupidatat.</span>
+                                    </li>
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-400 rx oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Lorem ipsum is placeholder text commonly.</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Mobile mockup -->
+                            <div class="gq bq ch bg aos-init aos-animate" x-data="{ modalExpanded: false }" data-aos="fade-up" data-aos-delay="450">
+                                <div class="id ti uf uo">
+                                    <!-- Glow illustration -->
+                                    <!-- <svg class="tr rj rq z tw ma" aria-hidden="true" width="678" height="634" viewBox="0 0 678 634" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="240" cy="394" r="240" fill="url(#piphoneill_paint0_radial)" fill-opacity=".4"></circle>
+                                        <circle cx="438" cy="240" r="240" fill="url(#piphoneill_paint1_radial)" fill-opacity=".6"></circle>
+                                        <defs>
+                                            <radialGradient id="piphoneill_paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 -77 317) scale(189.054)">
+                                                <stop stop-color="#667EEA"></stop>
+                                                <stop offset="1" stop-color="#667EEA" stop-opacity=".01"></stop>
+                                            </radialGradient>
+                                            <radialGradient id="piphoneill_paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 99 339) scale(189.054)">
+                                                <stop stop-color="#9F7AEA"></stop>
+                                                <stop offset="1" stop-color="#9F7AEA" stop-opacity=".01"></stop>
+                                            </radialGradient>
+                                        </defs>
+                                    </svg> -->
+                                    <!-- Image inside mockup size: 290x624px (or 580x1248px for Retina devices) -->
+                                    <img class="tr" src="./images/mockup-image-01.jpg" width="290" height="624" style="max-width: 84.33%;" alt="Features illustration">
+                                    <!-- iPhone mockup -->
+                                    <img class="ti on ns yu yg sr z" src="./images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup" aria-hidden="true">
+                                    <!-- Play button -->
+                                    <a class="tr di ph pv pw" @click.prevent="modalExpanded = true" href="#0" aria-controls="modal">
+                                        <img src="./images/play-button.svg" width="96" height="96" alt="Play">
+                                    </a>
+                                </div>
+
+                                <!-- Modal backdrop -->
+                                <div class="tn to tx a_ fn pp" x-show="modalExpanded" x-transition:enter="ph px pm" x-transition:enter-start="h_" x-transition:enter-end="opacity--100" x-transition:leave="ph px py" x-transition:leave-start="opacity--100" x-transition:leave-end="h_" aria-hidden="true" style="display: none;"></div>
+
+                                <!-- Modal dialog -->
+                                <div id="modal" class="tn to tx ae ip uo uf ow ls gp" role="dialog" aria-modal="true" aria-labelledby="modal-headline" x-show="modalExpanded" x-transition:enter="ph pw pm" x-transition:enter-start="h_ ov" x-transition:enter-end="opacity--100 ol" x-transition:leave="ph pw pm" x-transition:leave-start="opacity--100 ol" x-transition:leave-end="h_ ov" style="display: none;">
+                                    <div class="aw uz sk sa so" @click.outside="modalExpanded = false" @keydown.escape.window="modalExpanded = false">
+                                        <div class="ti ci">
+                                            <iframe class="tr sa ij" src="https://www.youtube.com/embed/qz4F1uMzihY" title="Video" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+                                        </div>
+                                    </div>
+                                </div>                    
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats -->
+            <section class="ti">
+                <!-- Background gradient (light version only) -->
+                <div class="tr tc ta tl i_ fi ff fb z tk vt" aria-hidden="true"></div>
+                <!-- End background gradient (light version only) -->
+                <div class="ti sk ns ls gp">
+                    <div class="ce bp">
+                        <div class="iv ue uh xr yq ch" data-aos-id-stats="">
+                            <!-- 1st item -->
+                            <div class="aw va lv lb pu aos-init aos-animate" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]">
+                                <div class="cv cb cq hi rr">2.4M</div>
+                                <div class="text-gray-600 dark--text-gray-400">Days turn around</div>
+                            </div>
+                            <!-- 2nd item -->
+                            <div class="aw va lv lb pu aos-init aos-animate" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="100">
+                                <div class="cv cb cq hi rr">7M</div>
+                                <div class="text-gray-600 dark--text-gray-400">Days turn around</div>
+                            </div>
+                            <!-- 3rd item -->
+                            <div class="aw va lv lb pu aos-init aos-animate" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="200">
+                                <div class="cv cb cq hi rr">7.4%</div>
+                                <div class="text-gray-600 dark--text-gray-400">Days turn around</div>
+                            </div>
+                            <!-- 4th item -->
+                            <div class="aw va lv lb pu aos-init aos-animate" data-aos="fade-down" data-aos-anchor="[data-aos-id-stats]" data-aos-delay="300">
+                                <div class="cv cb cq hi rr">49K</div>
+                                <div class="text-gray-600 dark--text-gray-400">Days turn around</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Carousel -->
+            <section class="al am vr">
+                <div class="lf ba">
+
+                    <div class="sk ns ls gp">
+
+                        <!-- Section header -->
+                        <div class="sj ns ch ce bv">
+                            <h1 class="h2 cv nk">From rough design files, to powerful products</h1>
+                            <p class="cg text-gray-600 dark--text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
+                    <!-- * Initialized in src/js/main.js -->
+                    <!-- * Custom styles in src/css/additional-styles/theme.scss -->
+                    <div class="carousel swiper-container swiper-initialized swiper-horizontal swiper-pointer-events">
+                        <div class="swiper-wrapper" id="swiper-wrapper-0bb1593e2406fe69" aria-live="off" style="cursor: grab; transition-duration: 0ms; transform: translate3d(-5064.5px, 0px, 0px);"><div class="swiper-slide sz swiper-slide-duplicate" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-01.jpg" width="540" height="460" alt="Carousel item 01">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div><div class="swiper-slide sz swiper-slide-duplicate" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-02.jpg" width="540" height="460" alt="Carousel item 02">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div><div class="swiper-slide sz swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-03.jpg" width="540" height="460" alt="Carousel item 03">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div><div class="swiper-slide sz swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-04.jpg" width="540" height="460" alt="Carousel item 04">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div><div class="swiper-slide sz swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-05.jpg" width="540" height="460" alt="Carousel item 05">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel items -->
+                            <div class="swiper-slide sz swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-01.jpg" width="540" height="460" alt="Carousel item 01">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide sz swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-02.jpg" width="540" height="460" alt="Carousel item 02">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide sz" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-03.jpg" width="540" height="460" alt="Carousel item 03">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide sz" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-04.jpg" width="540" height="460" alt="Carousel item 04">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide sz swiper-slide-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-05.jpg" width="540" height="460" alt="Carousel item 05">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="swiper-slide sz swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-01.jpg" width="540" height="460" alt="Carousel item 01">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div><div class="swiper-slide sz swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-02.jpg" width="540" height="460" alt="Carousel item 02">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div><div class="swiper-slide sz swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-03.jpg" width="540" height="460" alt="Carousel item 03">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div><div class="swiper-slide sz swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="4 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-04.jpg" width="540" height="460" alt="Carousel item 04">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div><div class="swiper-slide sz swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="margin-right: 24px;">
+                                <img class="pp pb" src="./images/carousel-item-05.jpg" width="540" height="460" alt="Carousel item 05">
+                                <div class="tr to ip ur pp pb h">
+                                    <div class="ip ou">
+                                        <a class="id r text-white bg-teal-500 p_ ns uq" href="#0">Learn more</a>
+                                    </div>
+                                    <div class="tr tc tl le">
+                                        <a class="cw c_ ch text-white lu lc as aj fr pz ph pv pw" href="#0">Creative Services</a>
+                                    </div>
+                                </div>
+                            </div></div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                    <!-- Arrows -->
+                    <div class="sk ns ls gp">
+                        <div class="ip uo ul ru yo">
+                            <button class="carousel-prev ti tb sm si lr il ip uo uf dx bg-teal-500 p_ va mp dark--hover--bg-opacity-25 pa ph pv pw" tabindex="0" aria-label="Previous slide" aria-controls="swiper-wrapper-0bb1593e2406fe69">
+                                <span class="q">Previous</span>
+                                <svg class="sy st fq text-white dark--text-gray-400 dj mg ph pv pw" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z"></path>
+                                </svg>
+                            </button>
+                            <button class="carousel-next ti tb sm si lr il ip uo uf dx bg-teal-500 p_ va mp dark--hover--bg-opacity-25 pa ph pv pw" tabindex="0" aria-label="Next slide" aria-controls="swiper-wrapper-0bb1593e2406fe69">
+                                <span class="q">Next</span>
+                                <svg class="sy st fq text-white dark--text-gray-400 dj mg ph pv pw" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z"></path>
+                                </svg>
+                            </button>
+                        </div>        
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Tabs -->
+            <section class="ti al am vr">
+                <!-- Background gradient -->
+                <div class="tr to i_ mf fu ff fb vv vx z" aria-hidden="true"></div>
+                <!-- End background gradient -->
+                <div class="ti sk ns ls gp">
+                    <div class="lf ba">
+
+                        <!-- Section header -->
+                        <div class="sj ns ch ce bv">
+                            <h2 class="h2 cv nk">Turn your ideas into reality in seconds</h2>
+                            <p class="cg text-gray-600 dark--text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                        </div>
+
+                        <!-- Section content -->
+                        <div x-data="{ category: '1' }">
+                            <div class="iv w_ uv xr">
+
+                                <!-- Category buttons -->
+                                <div class="bz xa ip ui uf wq xe nn wt">
+                                    <button class="wm c_ lc lu aw pj shadow va mh ph pv pw ai ip uo uf xe nr wt bg-teal-500 hover--bg-teal-500 dark--bg-teal-600 dark--hover--bg-teal-600 dark--bg-opacity-25 dark--hover--bg-opacity-25" :class="{ 'bg-teal-500 hover--bg-teal-500 dark--bg-teal-600 dark--hover--bg-teal-600 dark--bg-opacity-25 dark--hover--bg-opacity-25': category === '1' }" @click="category = '1'">
+                                        <svg class="sy st oo rx" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="fq text-teal-200 dark--text-teal-400" :class="category === '1' ? 'text-teal-200 dark--text-teal-400' : 'text-teal-500 dark--text-gray-400'" d="M5 16H4a4 4 0 01-4-4v-1h2v1a2 2 0 002 2h1v2zM13 10h-1.686l-1.207-1.207L14.37 4.63a2.121 2.121 0 00-3-3L7.207 5.793 5.99 4.576 5.98 3.02 3.038.079 0 3.117 3 6h1.586l1.207 1.207L4 9l3 3 1.793-1.793L10 11.414V13l3.01 3.01 2.98-2.979L13 10z"></path>
+                                        </svg>
+                                        <span :class="category === '1' ? 'text-white dark--text-teal-400' : 'text-gray-600 dark--text-gray-300'" class="text-white dark--text-teal-400">Getting Started</span>
+                                    </button>
+                                    <button class="wm c_ lc lu aw pj shadow va mh ph pv pw ai ip uo uf xe nr wt" :class="{ 'bg-teal-500 hover--bg-teal-500 dark--bg-teal-600 dark--hover--bg-teal-600 dark--bg-opacity-25 dark--hover--bg-opacity-25': category === '2' }" @click="category = '2'">
+                                        <svg class="sy st oo rx" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="fq text-teal-500 dark--text-gray-400" :class="category === '2' ? 'text-teal-200 dark--text-teal-400' : 'text-teal-500 dark--text-gray-400'" d="M8 3l4 4H4zM8 13L4 9h8zM1 0h14v2H1zM1 14h14v2H1z"></path>
+                                        </svg>
+                                        <span :class="category === '2' ? 'text-white dark--text-teal-400' : 'text-gray-600 dark--text-gray-300'" class="text-gray-600 dark--text-gray-300">Collection list</span>
+                                    </button>
+                                    <button class="wm c_ lc lu aw pj shadow va mh ph pv pw ai ip uo uf xe nr wt" :class="{ 'bg-teal-500 hover--bg-teal-500 dark--bg-teal-600 dark--hover--bg-teal-600 dark--bg-opacity-25 dark--hover--bg-opacity-25': category === '3' }" @click="category = '3'">
+                                        <svg class="sy st oo rx" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="fq text-teal-500 dark--text-gray-400" :class="category === '3' ? 'text-teal-200 dark--text-teal-400' : 'text-teal-500 dark--text-gray-400'" d="M6 0H1a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1V1a1 1 0 00-1-1zM5 5H2V2h3v3zM15 9h-5a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1v-5a1 1 0 00-1-1zm-1 5h-3v-3h3v3zM6 9H1a1 1 0 00-1 1v5a1 1 0 001 1h5a1 1 0 001-1v-5a1 1 0 00-1-1zm-1 5H2v-3h3v3zM12.5 7a1 1 0 01-.707-.293l-2.5-2.5a1 1 0 010-1.414l2.5-2.5a1 1 0 011.414 0l2.5 2.5a1 1 0 010 1.414l-2.5 2.5A1 1 0 0112.5 7z"></path>
+                                        </svg>
+                                        <span :class="category === '3' ? 'text-white dark--text-teal-400' : 'text-gray-600 dark--text-gray-300'" class="text-gray-600 dark--text-gray-300">Element Hierarchy</span>
+                                    </button>
+                                    <button class="wm c_ lc lu aw pj shadow va mh ph pv pw ai ip uo uf xe nr wt" :class="{ 'bg-teal-500 hover--bg-teal-500 dark--bg-teal-600 dark--hover--bg-teal-600 dark--bg-opacity-25 dark--hover--bg-opacity-25': category === '4' }" @click="category = '4'">
+                                        <svg class="sy st oo rx" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="fq text-teal-500 dark--text-gray-400" :class="category === '4' ? 'text-teal-200 dark--text-teal-400' : 'text-teal-500 dark--text-gray-400'" d="M15.4.6c-.84-.8-2.16-.8-3 0L8.7 4.3c.73.252 1.388.68 1.916 1.244.469.515.83 1.119 1.065 1.775L15.4 3.6c.8-.84.8-2.16 0-3zM4.937 6.9c-1.2 1.2-1.4 5.7-1.4 5.7s4.4-.4 5.6-1.5a2.987 2.987 0 000-4.2 2.9 2.9 0 00-4.2 0z"></path>
+                                        </svg>
+                                        <span :class="category === '4' ? 'text-white dark--text-teal-400' : 'text-gray-600 dark--text-gray-300'" class="text-gray-600 dark--text-gray-300">Styling Basics</span>
+                                    </button>
+                                    <button class="wm c_ lc lu aw pj shadow va mh ph pv pw ai ip uo uf xe nr wt" :class="{ 'bg-teal-500 hover--bg-teal-500 dark--bg-teal-600 dark--hover--bg-teal-600 dark--bg-opacity-25 dark--hover--bg-opacity-25': category === '5' }" @click="category = '5'">
+                                        <svg class="sy st oo rx" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                            <path class="fq text-teal-500 dark--text-gray-400" :class="category === '5' ? 'text-teal-200 dark--text-teal-400' : 'text-teal-500 dark--text-gray-400'" d="M11 16v-5h5V0H5v5H0v11h11zM2 7h7v7H2V7z"></path>
+                                        </svg>
+                                        <span :class="category === '5' ? 'text-white dark--text-teal-400' : 'text-gray-600 dark--text-gray-300'" class="text-gray-600 dark--text-gray-300">Image Field</span>
+                                    </button>
+                                </div>
+
+                                <!-- Videos -->
+                                <div class="we s_ ns yv wb">
+                                    <div class="iv yz ud">
+                                        <div x-show="['1'].includes(category)">
+                                            <div class="ti">                                    
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Using index pages</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">2 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-show="['1', '2'].includes(category)">
+                                            <div class="ti ip uf uo">
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Working with content</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">4 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-show="['1', '3'].includes(category)">
+                                        <div class="ti ip uf uo shadow">                                    
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Using cover pages</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">7 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-show="['1', '4'].includes(category)">
+                                        <div class="ti ip uf uo shadow">                                    
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Intro to the style model</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">9 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-show="['2', '5'].includes(category)" style="display: none;">
+                                        <div class="ti ip uf uo shadow">                                    
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Exploring collections</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">12 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-show="['2', '3'].includes(category)" style="display: none;">
+                                        <div class="ti ip uf uo shadow">                                    
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Understand hierarchy</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">3 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-show="['2', '4'].includes(category)" style="display: none;">
+                                        <div class="ti ip uf uo shadow">                                    
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Customisations</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">11 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-show="['3', '5'].includes(category)" style="display: none;">
+                                        <div class="ti ip uf uo shadow">                                    
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Image galleries</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">6 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-show="['5'].includes(category)" style="display: none;">
+                                        <div class="ti ip uf uo shadow">                                    
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Sorting images</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">4 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div x-show="['5'].includes(category)" style="display: none;">
+                                        <div class="ti ip uf uo shadow">                                    
+                                                <img class="sa" src="./images/video-thumb.jpg" width="352" height="264" alt="Video thumbnail 01">
+                                                <div class="tr to ip ur">
+                                                    <div class="ou ip uf uo">
+                                                        <a class="di ph pv pw" href="#0">
+                                                            <img src="./images/play-button.svg" width="72" height="72" alt="Play icon">
+                                                        </a>
+                                                    </div>
+                                                    <div class="sa tc lm ll aw pr vu ip ul uo">
+                                                        <a class="hs dark--text-gray-400 c_" href="#0">Filters</a>
+                                                        <div class="id lc lh cw c_ text-white aj fr dark--text-teal-400 dark--bg-teal-600 dark--bg-opacity-25 as">9 Min</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>            
+            
+            <!-- Process -->
+            <section class="ti">
+                <div class="sk ns ls gp">
+                    <div class="lf ba al av vr">
+
+                        <!-- Section header -->
+                        <div class="sj ns ch ce bp">
+                            <h2 class="h2 cv nk">Build and style every element to perfection</h2>
+                            <p class="cg text-gray-600 dark--text-gray-400">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                        </div>
+
+                        <!-- Glow illustration -->
+                        <!-- <svg class="tr tv ow od rz wf z tw ml im ya" aria-hidden="true" width="854" height="509" viewBox="0 0 854 509" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="iphonesill__a">
+                                    <stop stop-color="#667EEA" offset="0%"></stop>
+                                    <stop stop-color="#667EEA" stop-opacity="0" offset="100%"></stop>
+                                </radialGradient>
+                                <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="iphonesill__b">
+                                    <stop stop-color="#9F7AEA" offset="0%"></stop>
+                                    <stop stop-color="#9F7AEA" stop-opacity="0" offset="100%"></stop>
+                                </radialGradient>
+                            </defs>
+                            <g transform="translate(-64 -64)" fill="none" fill-rule="evenodd">
+                                <circle fill-opacity=".64" fill="url(#iphonesill__a)" cx="300" cy="300" r="300"></circle>
+                                <circle fill-opacity=".72" fill="url(#iphonesill__b)" cx="729" cy="384" r="240"></circle>
+                            </g>
+                        </svg> -->
+
+                        <!-- Items -->
+                        <div class="s_ ns iv uv bo xs be us yg">
+
+                            <!-- 1st item -->
+                            <div class="ti ip ur uo">
+                                <!-- Line connecting (1) and (2) -->
+                                <div aria-hidden="true" class="tr sn hj fs fl fy fb vm vb vx im ya" style="width:calc(100% - 48px);left:calc(50% + 48px);top:24px;">
+                                    <div class="tr to al ad ag vi"></div>
+                                </div>
+                                <!-- Number -->
+                                <div class="sm si as aq dark--bg-teal-600 dark--bg-opacity-25 ip uf uo text-white dark--text-teal-400 c_ nj wl">1</div>
+                                <!-- Mobile mockup -->
+                                <div class="id ti uf uo">
+                                    <!-- Image inside mockup size: 290x624px (or 580x1248px for Retina devices) -->
+                                    <img class="tr" src="./images/mockup-image-02.jpg" width="290" height="624" style="max-width: 84.33%;" alt="App screen 02">
+                                    <!-- iPhone mockup -->
+                                    <img class="ti on ns sr z" src="./images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup" aria-hidden="true">
+                                </div>
+                            </div>
+
+                            <!-- 2nd item -->
+                            <div class="ti ip ur uo">
+                                <!-- Line connecting (2) and (3) -->
+                                <div aria-hidden="true" class="tr sn hj fs fl fy fb vm vb vx im ya" style="width:calc(100% - 48px);left:calc(50% + 48px);top:24px;">
+                                    <div class="tr to al ad ag vi"></div>
+                                </div>
+                                <!-- Number -->
+                                <div class="sm si as aq dark--bg-teal-600 dark--bg-opacity-25 ip uf uo text-white dark--text-teal-400 c_ nj wl">2</div>
+                                <!-- Mobile mockup -->
+                                <div class="id ti uf uo">
+                                    <!-- Image inside mockup size: 290x624px (or 580x1248px for Retina devices) -->
+                                    <img class="tr" src="./images/mockup-image-03.jpg" width="290" height="624" style="max-width: 84.33%;" alt="App screen 03">
+                                    <!-- iPhone mockup -->
+                                    <img class="ti on ns sr z" src="./images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup" aria-hidden="true">
+                                </div>
+                            </div>
+
+                            <!-- 3rd item -->
+                            <div class="ti ip ur uo">
+                                <div class="sm si as aq dark--bg-teal-600 dark--bg-opacity-25 ip uf uo text-white dark--text-teal-400 c_ nj wl">3</div>
+                                <!-- Mobile mockup -->
+                                <div class="id ti uf uo">
+                                    <!-- Image inside mockup size: 290x624px (or 580x1248px for Retina devices) -->
+                                    <img class="tr" src="./images/mockup-image-04.jpg" width="290" height="624" style="max-width: 84.33%;" alt="App screen 04">
+                                    <!-- iPhone mockup -->
+                                    <img class="ti on ns sr z" src="./images/iphone-mockup.png" width="344" height="674" alt="iPhone mockup" aria-hidden="true">
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pricing Tables -->
+            <section class="ti aj al am vr">
+                <!-- Background gradient (dark version only) -->
+                <div class="tr to hq fu fm fw z im ve" aria-hidden="true"></div>
+                <!-- End background gradient (dark version only) -->
+                <div class="ti sk ns ls gp">
+                    <div class="lf ba">
+
+                        <!-- Section header -->
+                        <div class="sj ns ch ce">
+                            <h2 class="h2 cv nk hf">Start building for free, then add a plan to go live</h2>
+                            <p class="cg ho">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                        </div>
+
+                        <!-- Pricing tables -->
+                        <div class="sq ns iv ud gu wk us gs yy wb">
+
+                            <!-- Pricing table 1 -->
+                            <div class="ip ur ij le aw va shadow aa am vo aos-init aos-animate" data-aos="fade-down">
+                                <div class="ou nk cl">
+                                    <div class="ip ul uo rr">
+                                        <div class="cg cj cv">Yearly</div>
+                                        <div class="id lc lh cw c_ hg dark--text-teal-400 az dark--bg-teal-600 dark--bg-opacity-25 as">-40%</div>
+                                    </div>
+                                    <div class="cv id uu rn">
+                                        <span class="h4 text-gray-600 dark--text-gray-400">$</span>
+                                        <span class="h3">27</span>
+                                        <span class="c_ ha dark--text-gray-400">/billed yearly</span>
+                                    </div>
+                                    <div class="ha dark--text-gray-400">— Lorem ipsum dolor amet sit consect adipiscing.</div>
+                                </div>
+                                <div class="ie">
+                                    <a class="r text-white bg-teal-500 p_ sa" href="#0">Go Premium</a>
+                                </div>
+                            </div>
+
+                            <!-- Pricing table 2 -->
+                            <div class="ip ur ij le aw va shadow aos-init aos-animate" data-aos="fade-down" data-aos-delay="150">
+                                <div class="ou nk cl">
+                                    <div class="ip ul uo rr">
+                                        <div class="cg cj cv">Monthly</div>
+                                    </div>
+                                    <div class="cv id uu rn">
+                                        <span class="h4 text-gray-600 dark--text-gray-400">$</span>
+                                        <span class="h3">47</span>
+                                        <span class="c_ ha dark--text-gray-400">/billed yearly</span>
+                                    </div>
+                                    <div class="ha dark--text-gray-400">— Lorem ipsum dolor amet sit consect adipiscing.</div>
+                                </div>
+                                <div class="ie">
+                                    <a class="r text-white bg-purple-500 pqh dark--text-teal-400 vf md sa" href="#0">Go Premium</a>
+                                </div>
+                            </div>
+
+                            <!-- Pricing table 3 -->
+                            <div class="ip ur ij le aw va shadow aos-init aos-animate" data-aos="fade-down" data-aos-delay="300">
+                                <div class="ou nk cl">
+                                    <div class="ip ul uo rr">
+                                        <div class="cg cj cv">Lifetime</div>
+                                    </div>
+                                    <div class="cv id uu rn">
+                                        <span class="h4 text-gray-600 dark--text-gray-400">$</span>
+                                        <span class="h3">127</span>
+                                        <span class="c_ ha dark--text-gray-400">/one-time</span>
+                                    </div>
+                                    <div class="ha dark--text-gray-400">— Lorem ipsum dolor amet sit consect adipiscing.</div>
+                                </div>
+                                <div class="ie">
+                                    <a class="r text-white bg-req-500 pq dark--text-teal-400 vf md sa" href="#0">Go Premium</a>
+                                </div>
+                            </div>
+
+                            <!-- Pricing features -->
+                            <div class="mb">
+                                <div class="cp im mq">
+                                    <svg class="id rv np ro" width="86" height="25" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="fq text-gray-600" d="M80.959 10.448l-5.502-8.292 1.666-1.105 8.596 12.953-15.534.62-.08-1.999 9.944-.397-7.182-3.672C45.251-3.737 21.787 1.633 2.216 24.726L.69 23.435C20.836-.338 45.252-5.926 73.73 6.752l7.23 3.696z"></path>
+                                    </svg>
+                                </div>
+                                <div class="cy cj cv nk rm mj hf">All plans include:</div>
+                                <ul class="ho rk ou">
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-500 rc oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Unlimited domains</span>
+                                    </li>
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-500 rc oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Unlimited web pages</span>
+                                    </li>
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-500 rc oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Conversion analytics</span>
+                                    </li>
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-500 rc oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>A/B testing</span>
+                                    </li>
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-500 rc oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Exclusive channels</span>
+                                    </li>
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-500 rc oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Free resources</span>
+                                    </li>
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-500 rc oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Landing page builder</span>
+                                    </li>
+                                    <li class="ip uo rn">
+                                        <svg class="sl ib fq text-teal-500 rc oo" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
+                                        </svg>
+                                        <span>Smart forms and reports</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section>
+                <div class="sk ns ls gp">
+                    <div class="lf ba al am vr">
+
+                        <!-- Testimonials -->
+                        <div class="s_ ns iv uy ub gu xi us gs yy wb">
+
+                            <!-- 1st testimonial -->
+                            <div class="ch">
+                                <div class="ti id ur nk">
+                                    <img class="as" src="./images/testimonial-01.jpg" width="56" height="56" alt="Testimonial 01">
+                                    <svg class="tr tf tl ry it" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="fq text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z"></path>
+                                    </svg>
+                                </div>
+                                <blockquote class="cg text-gray-600 dark--text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+                                <div class="cv cj rf">
+                                    <cite class="ht">—Andy Croll</cite>, <a class="text-teal-500 ph pv pw" href="#0">Appy.com</a>
+                                </div>
+                            </div>
+
+                            <!-- 2nd testimonial -->
+                            <div class="ch">
+                                <div class="ti id ur nk">
+                                    <img class="as" src="./images/testimonial-02.jpg" width="56" height="56" alt="Testimonial 02">
+                                    <svg class="tr tf tl ry it" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="fq text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z"></path>
+                                    </svg>
+                                </div>
+                                <blockquote class="cg text-gray-600 dark--text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+                                <div class="cv cj rf">
+                                    <cite class="ht">—Patricia Lepisov</cite>, <a class="text-teal-500 ph pv pw" href="#0">Nobi Bank</a>
+                                </div>
+                            </div>
+
+                            <!-- 3rd testimonial -->
+                            <div class="ch">
+                                <div class="ti id ur nk">
+                                    <img class="as" src="./images/testimonial-03.jpg" width="56" height="56" alt="Testimonial 03">
+                                    <svg class="tr tf tl ry it" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="fq text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z"></path>
+                                    </svg>
+                                </div>
+                                <blockquote class="cg text-gray-600 dark--text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+                                <div class="cv cj rf">
+                                    <cite class="ht">—Zhenya Ritz</cite>, <a class="text-teal-500 ph pv pw" href="#0">Sync</a>
+                                </div>
+                            </div>
+
+                            <!-- 4th testimonial -->
+                            <div class="ch">
+                                <div class="ti id ur nk">
+                                    <img class="as" src="./images/testimonial-04.jpg" width="56" height="56" alt="Testimonial 04">
+                                    <svg class="tr tf tl ry it" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="fq text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z"></path>
+                                    </svg>
+                                </div>
+                                <blockquote class="cg text-gray-600 dark--text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+                                <div class="cv cj rf">
+                                    <cite class="ht">—Lisa Champ</cite>, <a class="text-teal-500 ph pv pw" href="#0">Appicu</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Features -->
+            <section>
+                <div class="sk ns ls gp">
+                    <div class="lf ba al av vr">
+
+                        <!-- Section header -->
+                        <div class="sj ns ch ce bp">
+                            <h2 class="h2 cv">Put clarity at the center of your website</h2>
+                        </div>
+
+                        <!-- Items -->
+                        <div class="sq ns gs yb wb iv gu uh xr wk" data-aos-id-featbl="">
+
+                            <!-- 1st item -->
+                            <a class="ip ur lt dx text-white fo fc fx vk pu aos-init aos-animate" href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-featbl]">
+                                <svg class="sf iy ro" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="fq" d="M19 18.414l-4 4L9.586 17l.707-.707L12 14.586V8.414l-5-5L4.414 6l6.293 6.293-1.414 1.414L1.586 6 7 .586l7 7v5l8.463-8.463a3.828 3.828 0 115.414 5.414L21 16.414v6.172l5 5L28.586 25l-6.293-6.293 1.414-1.414L31.414 25 26 30.414l-7-7v-5zm-4 1.172L26.463 8.123a1.828 1.828 0 10-2.586-2.586L12.414 17 15 19.586zM11 30v2C4.925 32 0 27.075 0 21h2a9 9 0 009 9zm0-5v2a6 6 0 01-6-6h2a4 4 0 004 4z" fill-rule="nonzero"></path>
+                                </svg>
+                                <div class="cv cg cq hi rr">Simpler Sharing</div>
+                                <div class="ou pn nk">Lorem ipsum dolor amet sit consect adipiscing.</div>
+                                <svg class="sh iw uj ow om dk ph pv pw" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="fq" d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z"></path>
+                                </svg>
+                            </a>
+
+                            <!-- 2nd item -->
+                            <a class="ip ur lt dx text-white fo fh fk v_ pu aos-init aos-animate" href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-featbl]" data-aos-delay="100">
+                                <svg class="sf iy ro" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="fq" d="M20.796 20l-1.677 7.264a6 6 0 01-7.302 4.471L0 28.781V11.54l.35-.3 9.457-8.107a3.751 3.751 0 015.29 5.29L11.175 13H28.5a3.5 3.5 0 012.6 1.156c.663.736.984 1.72.878 2.74-.252 1.808-1.817 3.143-3.622 3.104h-7.56zM2 27.22l10.303 2.575a4 4 0 004.868-2.98L19.204 18h9.173c.812.018 1.508-.575 1.615-1.345A1.5 1.5 0 0028.5 15H11.173a2 2 0 01-1.517-3.3l3.922-4.577a1.755 1.755 0 00-.597-2.733 1.751 1.751 0 00-1.872.262L2 12.46v14.76zM28 .585L29.414 2 23 8.414 21.586 7 28 .586zm-8.272 6.627l-1.94-.485 1.484-5.94 1.94.484-1.484 5.94zm3.544 5l-.485-1.94 5.94-1.486.486 1.94-5.94 1.486z" fill-rule="nonzero"></path>
+                                </svg>
+                                <div class="cv cg cq hi rr">Simpler Sharing</div>
+                                <div class="ou pn nk">Lorem ipsum dolor amet sit consect adipiscing.</div>
+                                <svg class="sh iw uj ow om dk ph pv pw" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="fq" d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z"></path>
+                                </svg>
+                            </a>
+
+                            <!-- 3rd item -->
+                            <a class="ip ur lt dx text-white fo fp f_ vj pu aos-init aos-animate" href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-featbl]" data-aos-delay="200">
+                                <svg class="sf iy ro" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="fq" d="M19 5.612V25a6 6 0 11-2-4.472V0h2v2.961A5.98 5.98 0 0023.497 5a8.476 8.476 0 018.444 9.474l-.253 2.13-1.469-1.563A6.472 6.472 0 0025.5 13c-1.842 0-3.634-.6-5.103-1.713l1.206-1.594A6.455 6.455 0 0025.5 11c1.557 0 3.068.428 4.376 1.217A6.475 6.475 0 0023.5 7 7.981 7.981 0 0119 5.612zM13 29a4 4 0 100-8 4 4 0 000 8zM0 5V3h14v2H0zm0 5V8h14v2H0zm0 5v-2h14v2H0z" fill-rule="nonzero"></path>
+                                </svg>
+                                <div class="cv cg cq hi rr">Simpler Sharing</div>
+                                <div class="ou pn nk">Lorem ipsum dolor amet sit consect adipiscing.</div>
+                                <svg class="sh iw uj ow om dk ph pv pw" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="fq" d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z"></path>
+                                </svg>
+                            </a>
+
+                            <!-- 4th item -->
+                            <a class="ip ur lt dx text-white fo fd fj vq pu aos-init aos-animate" href="#0" data-aos="fade-down" data-aos-anchor="[data-aos-id-featbl]" data-aos-delay="300">
+                                <svg class="sf iy ro" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="fq" d="M20.243 6.fc.757l.707.707-1.414 1.414-.707-.707a4 4 0 00-5.658 0l-.707.707-1.414-1.414.707-.707a6 6 0 018.486 0zm3.535-3.535l.707.707-1.414 1.414-.707-.707a9 9 0 00-12.728 0l-.707.707L7.515 3.93l.707-.707c4.296-4.296 11.26-4.296 15.556 0zM9 17.212V16a7 7 0 00-7-7H1V7h1a9 9 0 019 9v.788l2.302 5.18L11 23.117V24a4 4 0 01-4 4H5v3H3v-5h4a2 2 0 002-2v-2.118l1.698-.85L9 17.213zm12-.424V16a9 9 0 019-9h1v2h-1a7 7 0 00-7 7v1.212l-1.698 3.82 1.698.85V24a2 2 0 002 2h4v5h-2v-3h-2a4 4 0 01-4-4v-.882l-2.302-1.15L21 16.787zM16 12a1 1 0 110-2 1 1 0 010 2z" fill-rule="nonzero"></path>
+                                </svg>
+                                <div class="cv cg cq hi rr">Simpler Sharing</div>
+                                <div class="ou pn nk">Lorem ipsum dolor amet sit consect adipiscing.</div>
+                                <svg class="sh iw uj ow om dk ph pv pw" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path class="fq" d="M13 11V5.057L22.72 12 13 18.943V13H2v-2h11zm2 4.057L19.28 12 15 8.943v6.114z"></path>
+                                </svg>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cta -->
+            <section>
+                <div class="sk ns ls gp">
+
+                    <!-- CTA box -->
+                    <div class="dark ti bg-gray-800 lp ld bu bf">
+
+                        <!-- Background illustration -->
+                        <div class="tr to th  z" aria-hidden="true">
+                            <svg class="ij" width="400" height="232" viewBox="0 0 400 232" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="box-gr-a">
+                                        <stop stop-color="#667EEA" offset="0%"></stop>
+                                        <stop stop-color="#667EEA" stop-opacity="0" offset="100%"></stop>
+                                    </radialGradient>
+                                    <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="box-gr-b">
+                                        <stop stop-color="#3ABAB4" offset="0%"></stop>
+                                        <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
+                                    </radialGradient>
+                                </defs>
+                                <g transform="translate(-85 -369)" fill="none" fill-rule="evenodd">
+                                    <circle fill-opacity=".16" fill="url(#box-gr-a)" cx="413" cy="688" r="240"></circle>
+                                    <circle fill-opacity=".24" fill="url(#box-gr-b)" cx="400" cy="400" r="400"></circle>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="ti ip ur wj ul uo">
+
+                            <!-- CTA content -->
+                            <div class="rd wc wh ch xf wg">
+                                <h3 class="h3 cv hf">Free until you’re ready to launch</h3>
+                            </div>
+
+                            <!-- CTA form -->
+                            <form class="sa wg">
+                                <div class="ip ur ga uf sq ns go wb">
+                                    <input type="tel" class="s sa rn mk m_" placeholder="Phone number" aria-label="Phone number">
+                                    <a class="n text-white bg-teal-500 p_ oo" href="#0">Request code</a>
+                                </div>
+                                <!-- Success message -->
+                                <!-- <p class="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> -->
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            
+        </main>
+
+        <!-- Site footer -->
+        <footer class="ti">
+            <div class="sk ns ls gp">
+                <div class="lf bu al av vr re">
+
+                    <!-- Footer illustration -->
+                    <!-- <div class="z tw" aria-hidden="true">
+                        <svg class="tr tc ta ow od rt ma" width="800" height="264" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="400" cy="400" r="400" fill="url(#footerglow_paint0_radial)" fill-opacity=".4"></circle>
+                            <defs>
+                                <radialGradient id="footerglow_paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(90 0 400) scale(315.089)">
+                                    <stop stop-color="#3ABAB4"></stop>
+                                    <stop offset="1" stop-color="#3ABAB4" stop-opacity=".01"></stop>
+                                </radialGradient>
+                            </defs>
+                        </svg>
+                    </div> -->
+
+                    <!-- Top area: Blocks -->
+                    <div class="iv yj uc xn nj yt">
+
+                        <!-- 1st block -->
+                        <div class="gx bk" style="display: flex; justify-content: center;align-items: center;gap: 10px;">
+                            <!-- Logo -->
+                            <a class="ic" href="index.html" aria-label="Cruip">
+                                <!-- <svg class="sf iy" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
+                                            <stop stop-color="#3ABAB4" offset="0%"></stop>
+                                            <stop stop-color="#7F9CF5" offset="100%"></stop>
+                                        </linearGradient>
+                                        <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
+                                            <stop stop-color="#3ABAB4" offset="0%"></stop>
+                                            <stop stop-color="#3ABAB4" stop-opacity="0" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#flogo_a)"></path>
+                                    <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)"></path>
+                                </svg> -->
+                                <img src="./images/Audifrik.png" alt="logo" width="70px" height="70px"/>
+                            </a>
+                            <p style="font-size: 36px;font-family: fantasy; font-weight: bold;">audifric</p>
+                        </div>
+
+                        <!-- 2nd, 3rd, 4th and 5th blocks -->
+                        <div class="gk b_ iv ue yq uc">
+
+                            <!-- 2nd block -->
+                            <div class="cm">
+                                <h6 class="c_ cz rn">Products</h6>
+                                <ul>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Drag And Drop</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Visual Studio X</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Easy Content</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- 3rd block -->
+                            <div class="cm">
+                                <h6 class="c_ cz rn">Resources</h6>
+                                <ul>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Industries and tools</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Use cases</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Blog</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Online events</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Nostrud exercitation</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- 4th block -->
+                            <div class="cm">
+                                <h6 class="c_ cz rn">Company</h6>
+                                <ul>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Diversity &amp; inclusion</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">About us</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Press</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Customer stories</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Online communities</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- 5th block -->
+                            <div class="cm">
+                                <h6 class="c_ cz rn">Support</h6>
+                                <ul>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Documentation</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Tutorials &amp; guides</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Webinars</a>
+                                    </li>
+                                    <li class="rr">
+                                        <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Open-source</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Bottom area -->
+                    <div class="yf bt bn">
+
+                        <!-- Social links -->
+                        <ul class="ip nk gb yn yr">
+                            <li>
+                                <a class="ip uf uo text-white bg-teal-500 mt va dr hover--bg-teal-600 as ph pv pw" href="#0" aria-label="Twitter">
+                                    <svg class="sf iy fq" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nv">
+                                <a class="ip uf uo text-white bg-teal-500 mt va dr hover--bg-teal-600 as ph pv pw" href="#0" aria-label="Github">
+                                    <svg class="sf iy fq" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nv">
+                                <a class="ip uf uo text-white bg-teal-500 mt va dr hover--bg-teal-600 as ph pv pw" href="#0" aria-label="Facebook">
+                                    <svg class="sf iy fq" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nv">
+                                <a class="ip uf uo text-white bg-teal-500 mt va dr hover--bg-teal-600 as ph pv pw" href="#0" aria-label="Instagram">
+                                    <svg class="sf iy fq" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="20.145" cy="11.892" r="1"></circle>
+                                        <path d="M16 20c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z"></path>
+                                        <path d="M20 24h-8c-2.056 0-4-1.944-4-4v-8c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zm-8-14c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2v-8c0-.935-1.065-2-2-2h-8z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nv">
+                                <a class="ip uf uo text-white bg-teal-500 mt va dr hover--bg-teal-600 as ph pv pw" href="#0" aria-label="Linkedin">
+                                    <svg class="sf iy fq" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2h.1z"></path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!-- Middle links -->
+                        <div class="cm gw hu rn yr">
+                            <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Terms</a> · <a class="text-gray-600 dark--text-gray-400 dr ph pv pw" href="#0">Privacy Policy</a>
+                        </div>
+
+                        <!-- Copyrights note -->
+                        <div class="text-gray-600 dark--text-gray-400 cm ri">© Cruip.com. All rights reserved.</div>
+
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="./js/vendors/alpinejs.min.js" defer=""></script>
+    <script src="./js/vendors/aos.js"></script>
+    <script src="./js/vendors/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-125021779-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-125021779-1', { 'anonymize_ip': true });</script><script>const pagesList = [{"name":"Home","url":"https://preview.cruip.com/appy/index.html","active":true},{"name":"About","url":"https://preview.cruip.com/appy/about.html","active":false},{"name":"Blog","url":"https://preview.cruip.com/appy/blog.html","active":false},{"name":"Blog Post","url":"https://preview.cruip.com/appy/blog-post.html","active":false},{"name":"Testimonials","url":"https://preview.cruip.com/appy/testimonials.html","active":false},{"name":"Help center","url":"https://preview.cruip.com/appy/help.html","active":false},{"name":"404","url":"https://preview.cruip.com/appy/404.html","active":false},{"name":"Contact","url":"https://preview.cruip.com/appy/contact.html","active":false}];if(window != top){window.parent.postMessage(pagesList, "https://cruip.com")};</script></body></html>
